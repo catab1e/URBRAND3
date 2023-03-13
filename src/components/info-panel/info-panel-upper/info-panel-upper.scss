@@ -1,0 +1,14 @@
+@import '../../../styles/scss-values/block-width';
+@import '../../../styles/scss-fonts/h4-fonts';
+
+.i-p-u{
+    width: $block-width;
+    height: 35px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: #565656;
+    background-color: #D9D9D9;
+}

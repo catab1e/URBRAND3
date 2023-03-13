@@ -1,0 +1,56 @@
+@import '../../styles/scss-values/block-width';
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.filter{
+    width: $block-width;
+    height: 107px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+
+    background-color: #241F21;
+
+
+    .filter__item{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: 0.3s;
+
+        cursor: pointer;
+
+        &::after{
+            content: '';
+
+            width: 20px;
+            height: 15px;
+
+            margin: 0 5px;
+
+            display: inline-block;
+
+            background-image: url("../assets/icons/arrow.svg");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            transition: 0.3s;
+        }
+
+        &:hover , &:hover::after{
+            color: #ffc905;
+            margin-left: 5px;
+
+        }
+    }
+
+}

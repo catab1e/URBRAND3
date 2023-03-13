@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+
+.logo{
+    width: 182px;
+    height: 104px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    cursor: pointer;
+
+    .logo__block{
+        width: 182px;
+        height: 47px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Bakbak One', cursive;
+        font-size: 22px;
+        letter-spacing: 2px;
+
+        background-color: #FFC905;
+    }
+}

@@ -1,0 +1,67 @@
+@import '../../styles/scss-values/block-width';
+
+.search-container{
+    width: 953px;
+    height: 50px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+
+    .search-bar{
+        width: 953px;
+        height: 50px;
+
+        padding-left: 50px;
+
+        font-size: 18px;
+
+        border-radius: 9px;
+        border: none;
+
+        background-image: url('../assets/icons/search.svg');
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        background-position: 17px 12px;
+
+        outline: none;
+        transition: 0.3s;
+
+        &:focus{
+            border: 1px solid #ffd600;
+        }
+    }
+
+    .search-btn{
+        width: 124px;
+        height: 50px;
+
+        position: absolute;
+        right: 0;
+
+        color: #ffd600;
+        font-size: 18px;
+
+        border-radius: 9px;
+        border: none;
+
+        background-color: #241f21;
+
+        cursor: pointer;
+
+        transition: 0.2s;
+
+        &:hover{
+            width: 130px;
+        }
+
+        &:active{
+            background-color: #ffd600;
+            color: black;
+        }
+    }
+}
