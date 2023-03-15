@@ -15,6 +15,10 @@
 
     .item{
         cursor: pointer;
+
+        &:hover{
+            // width: 100%;
+        }
     }
 
     .wrapper{
@@ -97,7 +101,7 @@
         color: #FFC908;
         font-size: 40px;
     
-        background-color: rgba(0, 0, 0, 0.795);
+        background-color: rgba(0, 0, 0, 0.705);
     }
     
 }

@@ -1,0 +1,12 @@
+@import '../../styles/scss-values/block-width';
+
+
+.cards-container{
+    width: $block-width;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

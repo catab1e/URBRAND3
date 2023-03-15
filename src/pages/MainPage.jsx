@@ -5,6 +5,7 @@ import Logo from "../components/logo/Logo";
 import Search from "../components/search/Search";
 import Filter from "../components/filter/Filter";
 import Rec from "../components/recomendations/Rec";
+import CardsContainer from "../components/product/card/cards/CardsContainer";
 
 const MainPage = () => {
     return (
@@ -15,6 +16,7 @@ const MainPage = () => {
             </div>
             <Filter />
             <Rec />
+            <CardsContainer />
         </div>   
     );
 };

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+
+.card-item{
+    width: 270px;
+    height: 370px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: white;
+
+    cursor: pointer;
+
+    border-radius: 9px;
+
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #995c00;
+    }
+
+    .card-item__img{
+        width: 250px;
+        height: 245px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        overflow: hidden;
+    }
+
+    .card-item__descr{
+        width: 250px;
+        height: 18px;
+
+        font-size: 16px;
+        color: #A0A0A0;
+
+        overflow: hidden;
+    }
+
+    .card-item__price{
+        width: 250px;
+        height: 30px;
+
+        font-family: 'Bakbak One', cursive;
+        font-size: 19px;
+        color: black;
+
+    }
+}
