@@ -1,12 +1,11 @@
-@import '../../styles/scss-values/block-width';
+@import '../../../../styles/scss-values/block-width';
 
 
 .cards-container{
     width: $block-width;
     height: auto;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 55px;
 }

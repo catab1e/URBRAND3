@@ -1,0 +1,30 @@
+{
+    "products": [
+        {
+            "id":1,
+            "name": "hudi",
+            "price":750,
+            "sale": false,
+            "close-category": "hudi",
+            "print-category": "print"
+        },
+
+        {
+            "id": 2,
+            "name": "cap",
+            "price": 500,
+            "sale":true,
+            "close-category": "cap",
+            "print-category": "vyshivka"
+        },
+
+        {
+            "id":3,
+            "name": "shirt",
+            "price":700,
+            "sale":false,
+            "close-category": "shirt",
+            "print-category": "print"
+        }
+    ]
+}

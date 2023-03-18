@@ -1,0 +1,28 @@
+@import '../../../styles/scss-values/block-width';
+
+.products-header{
+    width: $block-width;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    span{
+        width: 420px;
+        height: 25px;
+
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    hr{
+        width: 173px;
+        height: 2px;
+
+        border: none;
+        background-color: #0047FF;
+
+    }
+}

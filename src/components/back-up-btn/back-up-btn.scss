@@ -1,0 +1,28 @@
+
+
+
+.back-up-container{
+    width: 100vw;
+    height: 61px;
+
+    border-bottom: 4px solid #d0d0d0;
+
+    .back-up__btn{
+        width: 67px;
+        height: 57px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-image: url("../assets/icons/arrowUp.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        position: relative;
+        right: -80%;
+
+        background-color: #434343;
+    }
+}
