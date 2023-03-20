@@ -54,3 +54,10 @@
     }
 
 }
+
+
+@media screen and (max-width: 1270px){
+    .filter{
+        width: $first-step-res;
+    }
+}

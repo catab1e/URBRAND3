@@ -14,7 +14,6 @@ import InfoPanelUpper from "../components/info-panel/info-panel-upper/InfoPanelU
 const MainPage = () => {
     return (
         <div className="main-page">
-            <InfoPanelUpper />
             <div className="block">
                 <Logo />
                 <Search />
