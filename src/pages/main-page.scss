@@ -35,3 +35,25 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1050px) {
+    .main-page{
+
+
+        .block{
+            width: 96vw;
+        }
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .main-page{
+
+        .block{
+            height: 200px;
+            flex-direction: column;
+        }
+    }
+}

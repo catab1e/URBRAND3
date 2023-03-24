@@ -19,7 +19,7 @@
     transition: 0.5s;
 
     &:hover{
-        background-color: #995c00;
+        background-color: #00c2fd;
     }
 
     .card-item__img{
@@ -31,6 +31,11 @@
         align-items: center;
 
         overflow: hidden;
+
+        .img{
+            width: 100%;
+            height: auto;
+        }
     }
 
     .card-item__descr{

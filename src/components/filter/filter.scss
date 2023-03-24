@@ -48,7 +48,7 @@
 
         &:hover , &:hover::after{
             color: #ffc905;
-            margin-left: 5px;
+            margin: 0px 5px 10px;
 
         }
     }
@@ -59,5 +59,13 @@
 @media screen and (max-width: 1270px){
     .filter{
         width: $first-step-res;
+    }
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .filter{
+        display: none;
     }
 }

@@ -1,4 +1,4 @@
-
+@import '../../styles/scss-values/block-width';
 
 
 .back-up-container{
@@ -24,5 +24,19 @@
         right: -80%;
 
         background-color: #434343;
+    }
+}
+
+
+
+@media screen and (max-width: 1270px) {
+    .back-up-container{
+        width: $first-step-res;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .back-up-container{
+        width: 96vw;
     }
 }

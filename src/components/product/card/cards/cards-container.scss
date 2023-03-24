@@ -6,12 +6,23 @@
     height: auto;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(270px ,1fr));
+    grid-template-rows: auto;
     gap: 55px;
 }
 
 
 
 @media screen and (max-width: 1270px) {
-    
+    .cards-container{
+        width: $first-step-res;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .cards-container{
+        width: 96vw;
+        gap: 1vw;
+    }
 }

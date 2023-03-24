@@ -12,41 +12,45 @@ const Rec = () => {
     <div className="rec">
       <div className="rec-1 wrapper rel item">
         <div className="abs">
-          <img src={orange} alt="" />
+          <img className="img" src={orange} alt="" />
         </div>
 
         <div className="black-filter">ПОПУЛЯРНОЕ</div>
       </div>
 
-      <div className="rec-2 wrapper">
-        <div className="rec-2-1 wrapper rel item">
-          <div className="abs">
-            <img src={ornaments} alt="" />
+      <div className="rec-2-container">
+        <div className="rec-2 wrapper">
+          <div className="rec-2-1 wrapper rel item">
+            <div className="abs">
+              <img className="img" src={ornaments} alt="" />
+            </div>
+            <div className="black-filter">KG</div>
           </div>
-          <div className="black-filter">KG</div>
+          <div className="rec-2-2 wrapper rel item">
+            <div className="abs">
+              <img className="img" src={AI} alt="" />
+            </div>
+            <div className="black-filter">ОТ НЕЙРОСЕТИ</div>
+          </div>
         </div>
-        <div className="rec-2-2 wrapper rel item">
-          <div className="abs">
-            <img src={AI} alt="" />
+
+        <div className="rec-3 wrapper">
+          <div className="rec-3-1 wrapper rel item">
+            <div className="abs">
+              <img className="img" src={oneme} alt="" />
+            </div>
+            <div className="black-filter">АНИМЕ</div>
           </div>
-          <div className="black-filter">ОТ НЕЙРОСЕТИ</div>
+          <div className="rec-3-2 wrapper rel item">
+            <div className="abs">
+              <img className="img" src={dialog} alt="" />
+            </div>
+            <div className="black-filter">ЦИТАТЫ</div>
+          </div>
         </div>
       </div>
 
-      <div className="rec-3 wrapper">
-        <div className="rec-3-1 wrapper rel item">
-          <div className="abs">
-            <img src={oneme} alt="" />
-          </div>
-          <div className="black-filter">АНИМЕ</div>
-        </div>
-        <div className="rec-3-2 wrapper rel item">
-          <div className="abs">
-            <img src={dialog} alt="" />
-          </div>
-          <div className="black-filter">ЦИТАТЫ</div>
-        </div>
-      </div>
+      
     </div>
   );
 };

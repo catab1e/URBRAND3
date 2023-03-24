@@ -34,3 +34,9 @@
         width: $first-step-res;
     }
 }
+
+@media screen and (max-width: 1050px) {
+    .products-header{
+        width: 96vw;
+    }
+}

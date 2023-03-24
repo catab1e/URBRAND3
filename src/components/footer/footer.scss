@@ -32,3 +32,24 @@
         height: 100%;
     }
 }
+
+
+
+@media screen and (max-width: 1270px) {
+    .footer{
+        width: $first-step-res;
+
+
+
+        .footer__descr{
+            width: 600px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .footer{
+        width: 96vw;
+    }
+}
