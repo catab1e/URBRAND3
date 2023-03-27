@@ -53,3 +53,15 @@
         width: 96vw;
     }
 }
+
+
+@media screen and (max-width: 800px) {
+    .footer{
+
+
+
+        .footer__logo{
+            display: none;
+        }
+    }
+}

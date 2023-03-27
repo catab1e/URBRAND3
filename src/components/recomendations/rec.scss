@@ -2,7 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500;600&display=swap');
 
-.rec{
+// font-family: 'Golos Text', sans-serif;
+// font-weight: 500;
+
+.rec-box{
     width: $block-width;
     height: 600px;
 
@@ -10,234 +13,20 @@
     justify-content: space-between;
     align-items: center;
 
-    font-family: 'Golos Text', sans-serif;
-    font-weight: 500;
+    background-color: black;
 
-    .item{
-        cursor: pointer;
-    }
-
-    .wrapper{
-        border-radius: 17px;
-        overflow: hidden;
-    }
-
-    .rel{
-        position: relative;
-    }
-
-    .abs{
-        width: 100%;
-        height: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        
-        color: red;
-        position: absolute;
-        z-index: -1;
-    }
-    
-    .rec-1{
+    .item-1{
         width: 499px;
         height: 600px;
+
+        background-color: aqua;
     }
 
-    .rec-2-container{
-        width: 720px;
-        height: auto;
-
-        display: flex;
-        justify-content: space-between;
-
-        .rec-2{
-            width: 347px;
-            height: 600px;
-    
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
-            
-            .rec-2-1{
-                width: 100%;
-                height: 267px;
-            }
-            
-            .rec-2-2{
-                width: 100%;
-                height: 308px;
-            }
-        }
-        
-        .rec-3{
-            width: 347px;
-            height: 600px;
-            
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
-            
-            .rec-3-1{
-                width: 100%;
-                height: 308px;
-            }
-            
-            .rec-3-2{
-                width: 100%;
-                height: 267px;
-            }
-            
-        }
-
-    }
-    
-    
-
-    .black-filter{
-        width: 100%;
-        height: 100%;
-    
+    .rec__item{
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        color: #FFC908;
-        font-size: 40px;
-    
-        background-color: rgba(0, 0, 0, 0.705);
-
-        transition: 0.3s;
-
-        &:hover{
-            color: white;
-        }
-    }
-    
-}
-
-
-@media screen and (max-width: 1270px) {
-    .rec{
-        width: $first-step-res;
-
-
-
-
-
-        .rec-1{
-            width: 400px;
-            height: 600px;
-        }
-
-        .rec-2-container{
-
-            width: 612px;
-
-            .rec-2{
-                width: 300px;
-                height: 600px;
-            }
-    
-            .rec-3{
-                width: 300px;
-                height: 600px;
-            }
-        }
-
-
-    }
-}
-
-
-
-@media  screen and (max-width: 1050px) {
-    .rec{
-        width: 90vw;
-        height: auto;
-
-        flex-direction: column;
-
-        .rec-1{
-            width: 100%;
-            height: 300px;
-
-            .img{
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        &>div{
-            margin-top: 10px;
-        }
-
-        .rec-2-container{
-            width: 90vw;
-
-            .img{
-                width: 100%;
-                height: auto;
-            }
-
-            .rec-2{
-                width: 44vw;
-
-                .img{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-
-            .rec-3{
-                width: 44vw;
-
-                .img{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-        }
-    }
-}
-
-
-@media screen and (max-width:800px) {
-    .rec{
-
-
-        .rec-2-container{
-
-            .rec-2{
-
-                height: 430px;
-
-                .rec-2-1{
-                    height: 200px;
-                }
-                .rec-2-2{
-                    height: 220px;
-                }
-            }
-
-            .rec-3{
-
-                height: 430px;
-
-                .rec-3-1{
-                    height: 220px;
-                }
-    
-                .rec-3-2{
-                    height: 200px;
-                }
-            }
-            
-        }
-
         
+        border-radius: 17px;
     }
 }

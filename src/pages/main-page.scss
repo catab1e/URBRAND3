@@ -57,3 +57,24 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 640px) {
+    .main-page{
+
+        &>*{
+            margin: 0px;
+        }
+
+
+        .block{
+            width: 100vw;
+            height: auto;
+
+
+            padding: 10px;
+            background-color: #FFC905;
+        }
+    }
+}

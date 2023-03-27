@@ -66,6 +66,34 @@
 
 @media screen and (max-width: 1050px) {
     .filter{
-        display: none;
+        width: 900px;
+
+        color: black;
+        background-color: transparent;
+
+
+        .filter__item{
+
+
+            &::after{
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:910px) {
+    .filter{
+        width: 85vw;
+        height: 40px;
+
+        justify-content: flex-start;
+
+        overflow: auto;
+
+        .filter__item{
+            margin: 0 10px;
+        }
     }
 }

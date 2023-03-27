@@ -87,3 +87,15 @@
         width: 90vw;
     }
 }
+
+
+@media screen and (max-width:640px) {
+    .search-container{
+        width: 75vw;
+
+        .search-btn{
+
+            display: none;
+        }
+    }
+}
