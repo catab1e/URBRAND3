@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/URBRAND3/static/css/main.0c10f737.css",
+    "main.js": "/URBRAND3/static/js/main.d27136f2.js",
+    "static/media/fon.png": "/URBRAND3/static/media/fon.b7e3c43b6ec7076a79c1.png",
+    "static/media/orange.png": "/URBRAND3/static/media/orange.31164d2b9991009da2e1.png",
+    "static/media/oneme.png": "/URBRAND3/static/media/oneme.37cb4b3b42dec0608a86.png",
+    "static/media/ornaments.png": "/URBRAND3/static/media/ornaments.0aac8d96cd8b9a387e8c.png",
+    "static/media/AI.png": "/URBRAND3/static/media/AI.cccba890736261ccdd71.png",
+    "static/media/dialog.png": "/URBRAND3/static/media/dialog.a3a42fbb4c42991020d2.png",
+    "static/media/jumper.png": "/URBRAND3/static/media/jumper.200a391f65e1f30323ca.png",
+    "static/media/search.svg": "/URBRAND3/static/media/search.0d4c8521be42c685c72d.svg",
+    "index.html": "/URBRAND3/index.html",
+    "static/media/arrowUp.svg": "/URBRAND3/static/media/arrowUp.c16676d333a5b64026b8.svg",
+    "static/media/arrow.svg": "/URBRAND3/static/media/arrow.558e78fa4010a6fedb80.svg",
+    "main.0c10f737.css.map": "/URBRAND3/static/css/main.0c10f737.css.map",
+    "main.d27136f2.js.map": "/URBRAND3/static/js/main.d27136f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c10f737.css",
+    "static/js/main.d27136f2.js"
+  ]
+}
